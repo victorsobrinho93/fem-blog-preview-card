@@ -51,10 +51,7 @@ main {
 @media (max-width: 960px), (orientation: portrait) {
   main {
     grid-template-columns: 5% 90% 5%;
-    grid-template-rows: 27.5vh 45vh 27.5vh;
-  }
-  .preview-card {
-    height: 45vh;
+    grid-template-rows: 1fr auto 1fr;
   }
 }
 
